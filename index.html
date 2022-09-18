@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Tables Practice</title>
+
+    <style>
+        body {
+            background-color: rgb(202, 179, 74);
+        }
+
+        table {
+            text-align: center;
+            border-collapse: collapse;
+            width: 300px;
+           margin: 0 auto;
+
+            
+        }
+
+
+        td, th{
+            border: 2px solid rgb(250, 123, 114);
+            border-style: inset;
+           
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Bill</td>
+            <td>52</td>
+            <td>Atlanta</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>23</td>
+            <td>Toronto</td>
+        </tr>
+        <tr>
+            <td>Bart</td>
+            <td>44</td>
+            <td>New York</td>
+        </tr>
+    </table>
+
+
+    <br>
+<table style="border-collapse: collapse;" >
+    
+        <tr>
+            <td colspan="3" style="background-color:rgb(184, 179, 179) ;"><strong>Name</strong></td>
+        </tr>
+
+           
+            <tr>
+                <table  style="border-collapse: collapse;" >
+                 <td style="background-color:rgb(83, 192, 132) ;" >Bill</td>
+                <td style="background-color:rgb(226, 127, 97) ;">Bob</td>
+                </table>
+                    
+            </tr>
+            
+            <table  style="border-collapse: collapse;" >
+                <tr>
+                    <td style="background-color:rgb(183, 83, 192) ;" >Bill</td>
+                    <td style="background-color:rgb(83, 167, 192) ;" >Bob</td>
+                    <td style="background-color:rgb(192, 190, 83) ;" >Bart S</td>
+                </tr>
+            </table>
+      
+
+    </table>
+
+
+</body>
+</html>
